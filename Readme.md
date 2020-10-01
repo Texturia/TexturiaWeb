@@ -7,6 +7,8 @@ Team Member Names:
 Domenic Quenneville - 300169781
 Daniel Dumitrescu - 300176257
 Darby Martin - 300198642
+Sabina Solomon - 300174303
+
 
 
 Product Name: Texturia
@@ -19,4 +21,3 @@ Additional Product Features:
     Editing, cropping, and warping the extracted design to better fit the designed product
     Sharing their creations directly with other users or posting them in public communities
     Posting reviews for ordered products 
- c2bfbe218448230de81237699a9478ed079a0efe
