@@ -5,6 +5,7 @@ Team Name: Texturia
 Team Member Names:
 Domenic Quenneville - 300169781
 Daniel Dumitrescu - 300176257
+Sabina Solomon - 300174303
 
 
 Product Name: Texturia
