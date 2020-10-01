@@ -1,11 +1,14 @@
 This is Texturia's Readme<br>
 
+
 Team Name: Texturia
 
 Team Member Names:
 Domenic Quenneville - 300169781
 Daniel Dumitrescu - 300176257
+Darby Martin - 300198642
 Sabina Solomon - 300174303
+
 
 
 Product Name: Texturia
