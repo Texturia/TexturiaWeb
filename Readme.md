@@ -1,13 +1,14 @@
 This is Texturia's Readme<br>
 
+Team Name: Texturia<br>
 
 Team Name: Texturia
 
-Team Member Names:
-Domenic Quenneville - 300169781
-Daniel Dumitrescu - 300176257
-Darby Martin - 300198642
-Sabina Solomon - 300174303
+Team Member Names:<br>
+Domenic Quenneville - 300169781<br>
+Daniel Dumitrescu - 300176257<br>
+Darby Martin - 300198642<br>
+Sabina Solomon - 300174303<br>
 
 
 
