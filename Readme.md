@@ -2,8 +2,6 @@ This is Texturia's Readme<br>
 
 Team Name: Texturia<br>
 
-Team Name: Texturia
-
 Team Member Names:<br>
 Domenic Quenneville - 300169781<br>
 Daniel Dumitrescu - 300176257<br>
