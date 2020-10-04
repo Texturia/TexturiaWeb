@@ -7,6 +7,7 @@ Domenic Quenneville - 300169781<br>
 Daniel Dumitrescu - 300176257<br>
 Darby Martin - 300198642<br>
 Sabina Solomon - 300174303<br>
+Salim Soussi -300185840
 
 
 
