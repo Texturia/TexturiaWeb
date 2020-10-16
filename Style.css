@@ -1,6 +1,23 @@
 #leftPanel {
 	position: fixed;
-	margin-top: 250px;
+	margin-top:250px;
 	margin-left: 5%;
 }
 
+#rightPanel {
+	position: fixed;
+	margin-top: 250px;
+	margin-left: 80%;
+}
+
+#midPanel {
+		
+}
+
+footer {
+	width: 100%;
+	z-index: 9999;
+	text-align: center;
+	position: fixed;	
+	bottom: 10px;
+}
