@@ -21,3 +21,38 @@ footer {
 	position: fixed;	
 	bottom: 10px;
 }
+/* CSS Code for the Features Page Below */
+#F-Header {
+	position: static;
+	display: block;
+	color: grey;
+}
+
+#F-RightPanel {
+	float: right;
+	position: relative;
+	width: 20%;
+
+}
+
+#F-LeftPanel {
+	float: left;
+	position: relative;
+	width: 20%;
+	
+}
+
+#F-Table1 {
+	position: center;
+	width: 60%;
+}
+
+#F-Table2 {
+	position: center;
+	width: 60%;
+}
+
+#F-Table3 {
+	position: center;
+	width: 60%;
+}
