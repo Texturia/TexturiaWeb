@@ -2,11 +2,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
 	<script type="text/javascript" src="leftPanel.js"></script>	
 <title>Gallery</title>
 
 <style>
-img {
+#galleryImg {
 	height: 300px;
 	width: 300px
 }
@@ -14,6 +15,40 @@ img {
 
 </head>
 
+<div class="topnav">
+    <ul id="ulNavbar"> 
+      <li id="liNavbar"><a href="Home.html">Home</a></li>	
+      <li id="liNavbar"class="dropdown">
+        <a href="javascript:void(0)"class="dropbtn">Gallery</a>
+            <div class="dropdown-content">
+        <a href="Gallery.html">Wall Decor</a>
+        <a href="Gallery2.html">Clothing</a>
+        <a href="Gallery3.html">Household Objects</a>
+            </div>
+     </li>
+     <li id="liNavbar" class="dropdown">
+        <a href="javascript:void(0)"class="dropbtn">Features</a>
+            <div class="dropdown-content">
+        <a href="Features.html">Capture Designs</a>
+        <a href="Features.html#businesses">Connecting Businesses with Consumers</a>
+        <a href="Features.html#AR">AR Technology</a>
+        <a href="Features.html#share">Sharing Creations with Other Users</a>
+            </div>
+     </li>
+     <li id="liNavbar" class="dropdown">
+        <a href="javascript:void(0)"class="dropbtn">Pricing</a>
+            <div class="dropdown-content">
+        <a href="Pricing.html">Users</a>
+        <a href="Pricing2.html">Designers</a>
+            </div>
+     </li>
+        <li id="liNavbar"><a href="team.htm">Team</a></li>	
+     <li id="liNavbar">
+        <img src="Images/TexturiaLogo.png">
+    </li>
+    </ul>
+</div>
+	
 <a name="top"></a>
 <div style="width: 100%">
  <div id="leftPanel" style="float: left; width: 20%">
@@ -36,12 +71,12 @@ img {
 	<p>Check out how Texturia can help you design custom objects!</p>
 	<div class="">
 		<h3 class="">Pillows</h3>
-		<img id="" src="Images/gallery3a.jpg">
+		<img id="galleryImg" src="Images/gallery3a.jpg">
 		<p>Leaf-like design applied to your pillows</p></a>
 	</div>
 	<div class="">
 		<h3 class="">Chairs</h3>
-		<img id="" src="Images/gallery3b.jpg">
+		<img id="galleryImg" src="Images/gallery3b.jpg">
 		<p>Tree stump design added to your chairs</p></a>
 	</div>
 	<a href="Features.html">Next</a>
