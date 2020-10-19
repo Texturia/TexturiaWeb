@@ -1,6 +1,6 @@
 function openGallery() {
 	window.open(
-	"Demo.html",
+	"Gallery.html",
 	"_blank"
 	)	
 }

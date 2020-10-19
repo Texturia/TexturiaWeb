@@ -1,5 +1,6 @@
 <html>
 
+	<link rel="stylesheet" type="text/css" href="navbar.css">
 <style>
 img {
 	height: 300px;
@@ -8,16 +9,52 @@ img {
 </style>
 
 <head>
-	<div style="padding: 10px ">
+	<div style="padding: 10px; margin-top: 250px">
 	<title>Features</title>
 	<center>  <h1>Features</h1> </center>
 	</div>
 </head>
+
 <body>
 	
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+
+	<div class="topnav">
+		<ul id="ulNavbar"> 
+		  <li id="liNavbar"><a href="Home.html">Home</a></li>	
+		  <li id="liNavbar"class="dropdown">
+			<a href="javascript:void(0)"class="dropbtn">Gallery</a>
+				<div class="dropdown-content">
+			<a href="Gallery.html">Wall Decor</a>
+			<a href="Gallery2.html">Clothing</a>
+			<a href="Gallery3.html">Household Objects</a>
+				</div>
+		 </li>
+		 <li id="liNavbar" class="dropdown">
+			<a href="javascript:void(0)"class="dropbtn">Features</a>
+				<div class="dropdown-content">
+			<a href="Features.html">Capture Designs</a>
+			<a href="Features.html#businesses">Connecting Businesses with Consumers</a>
+			<a href="Features.html#AR">AR Technology</a>
+			<a href="Features.html#share">Sharing Creations with Other Users</a>
+				</div>
+		 </li>
+		 <li id="liNavbar" class="dropdown">
+			<a href="javascript:void(0)"class="dropbtn">Pricing</a>
+				<div class="dropdown-content">
+			<a href="Pricing.html">Users</a>
+			<a href="Pricing2.html">Designers</a>
+				</div>
+		 </li>
+			<li id="liNavbar"><a href="team.htm">Team</a></li>	
+		 <li id="liNavbar">
+			<img src="Images/TexturiaLogo.png">
+		</li>
+		</ul>
+	</div>
 	<a name="top"></a>
 
-	<div id="leftPanel" style="float: left; width: 20%; position: fixed; margin-top:30px;	margin-left: 5%">
+	<div id="leftPanel" style="float: left; width: 20%; position: fixed; margin-left: 5%">
 		<button type="button" onClick="document.getElementById('capture').scrollIntoView()";>Costume Designs</button>
 
 		<br><br><br>
@@ -34,7 +71,7 @@ img {
 
 
 
-	<div id="rightPanel" style="float: right; width: 20%; position: fixed;	margin-top: 20px; 	margin-left: 80%; ">
+	<div id="rightPanel" style="float: right; width: 20%; position: fixed;	margin-left: 80%; ">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -44,7 +81,7 @@ img {
 	</div> 
 
 <center>
-<div id="main" style="margin-right: 25% ; margin-left: 25%">
+<div id="main" style="margin-right: 25% ; margin-left: 25% ">
 	<h2>Check out Texturia's features!</h2>
 	<br><br>
 		<div id="capture">
@@ -109,7 +146,7 @@ img {
 
 <footer>
 
-	<a id="backToTop" href="#top" style="width: 100%; z-index: 9999;text-align: center; position: fixed; bottom: 10px;s">Back to Top</a>
+	<a id="backToTop" href="#top" style="width: 100%; z-index: 9999;text-align: center; position: fixed; bottom: 10px;">Back to Top</a>
 
 	<br><br>
 </footer>
