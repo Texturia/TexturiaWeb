@@ -56,3 +56,13 @@ footer {
 	position: center;
 	width: 60%;
 }
+
+
+/* backgrounds */
+#darkback{
+	 background-color: #19191a
+}
+
+#lightback{
+	 background-color: #e0e0e0
+}
