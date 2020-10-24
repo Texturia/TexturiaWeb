@@ -2,20 +2,56 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="Style.css">
-	<script type="text/javascript" src="leftPanel.js"></script>		
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+    <script type="text/javascript" src="leftPanel.js"></script>	
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">	
 <title>Gallery</title>
 
 <style>
-img {
+#galleryImg {
 	height: 300px;
 	width: 300px
 }
+
+
 </style>
 
 </head>
 
+<div class="topnav">
+    <ul id="ulNavbar"> 
+      <li id="liNavbar"><a href="Home.html"><img src="Images/TexturiaLogo.png"></a></li>	
+      <li id="liNavbar"class="dropdown">
+        <a href="javascript:void(0)"class="dropbtn">Gallery</a>
+            <div class="dropdown-content">
+        <a href="Gallery.html">Wall Decor</a>
+        <a href="Gallery2.html">Clothing</a>
+        <a href="Gallery3.html">Household Objects</a>
+            </div>
+     </li>
+     <li id="liNavbar" class="dropdown">
+        <a href="javascript:void(0)"class="dropbtn">Features</a>
+            <div class="dropdown-content">
+        <a href="Features.html">Capture Designs</a>
+        <a href="Features.html#businesses">Connecting Businesses with Consumers</a>
+        <a href="Features.html#AR">AR Technology</a>
+        <a href="Features.html#share">Sharing Creations with Other Users</a>
+            </div>
+     </li>
+     <li id="liNavbar" class="dropdown">
+        <a href="javascript:void(0)"class="dropbtn">Pricing</a>
+            <div class="dropdown-content">
+        <a href="Pricing.html">Users</a>
+        <a href="Pricing2.html">Designers</a>
+            </div>
+     </li>
+        <li id="liNavbar"><a href="team.htm">Team</a></li>	
+     
+    </ul>
+</div>
+
 <a name="top"></a>
-<div style="width: 100%">
+<!--<div style="width: 100%">
  <div id="leftPanel" style="float: left; width: 20%">
 		<button type="button" onclick="openGallery()">Wall Decor </button><br><br>
         <button type="button" onclick="openGallery3()">Household Objects</button><br><br>
@@ -26,7 +62,7 @@ img {
 	<p>Blurb 1</p><hr>
 	<p>Blurb 2</p><hr>
 	<p>Blurb 3</p></div>
-</div> 
+</div> -->
 
 <center><div id="midPanel">
 	<div id="pageStart">
@@ -35,12 +71,12 @@ img {
 	<p>Check out how Texturia can help you design custom clothes!</p>
 	<div class="">
 		<h3 class="">T-Shirts</h3>
-		<img id="" src="Images/gallery2a.jpg">
+		<img id="galleryImg" src="Images/gallery2a.jpg">
 		<p>Seashell-like design added to your t-shirt</p></a>
 	</div>
 	<div class="">
 		<h3 class="">Bedroom</h3>
-		<img id="" src="Images/gallery2b.webp">
+		<img id="galleryImg" src="Images/gallery2b.webp">
 		<p>Petal-like texture added to your hat</p></a>
 	</div>
 	<a href="Gallery3.html">Next</a>

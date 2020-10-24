@@ -1,6 +1,6 @@
 #leftPanel {
 	position: fixed;
-	margin-top:250px;
+	margin-top: 250px;
 	margin-left: 5%;
 }
 
@@ -10,8 +10,10 @@
 	margin-left: 80%;
 }
 
-#midPanel {
-		
+#pageStart {
+	position: absolute;	
+	left: 30%;
+	top: 300px;
 }
 
 footer {
@@ -21,6 +23,8 @@ footer {
 	position: fixed;	
 	bottom: 10px;
 }
+
+
 /* CSS Code for the Features Page Below */
 #F-Header {
 	position: static;
@@ -32,6 +36,7 @@ footer {
 	float: right;
 	position: relative;
 	width: 20%;
+	margin-top: 250px;
 
 }
 
@@ -39,6 +44,7 @@ footer {
 	float: left;
 	position: relative;
 	width: 20%;
+	margin-top: 250px;
 	
 }
 
@@ -57,12 +63,3 @@ footer {
 	width: 60%;
 }
 
-
-/* backgrounds */
-#darkback{
-	 background-color: #19191a
-}
-
-#lightback{
-	 background-color: #e0e0e0
-}
