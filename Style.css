@@ -25,7 +25,7 @@ h1 {
     padding-top: 300px;
 }
 
-/* CSS Code for the Features Page Below */
+/* CSS Code for the Prices Page Below */
 #F-Header {
 	position: static;
 	display: block;
@@ -81,12 +81,38 @@ button:hover {
 
 /* backgrounds */
 #darkback{
-	 background-color: #19191a;
-	 color: #e0e0e0;
+	color: #e0e0e0;
+	 background-color: #19191a
+
 }
 
 #lightback{
-	 background-color: #e0e0e0;
 	 color:  #19191a;
+	 background-color: #e0e0e0
+
 }
 
+
+/* css of features page */
+.fixed-back {
+  background-attachment: fixed;
+  background-position: center center;
+  height: 350px; 
+  width: 100%;
+
+}
+
+.b-1 {
+  background-image: url('Images/features1.jpg');
+}
+
+
+.b-2 {
+  background-image: url('Images/features2.jpg');
+}
+
+.b-3 {
+  background-image: url('Images/features3.jpg');
+}
+
+/* end of css of features page */
