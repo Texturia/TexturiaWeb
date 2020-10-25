@@ -10,7 +10,6 @@
 
 #pageStart {
 	position: absolute;	
-	left: 30%;
 	top: 300px;
 }
 
@@ -22,6 +21,9 @@ footer {
 	bottom: 10px;
 }
 
+h1 {
+    padding-top: 300px;
+}
 
 /* CSS Code for the Features Page Below */
 #F-Header {
