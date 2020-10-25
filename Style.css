@@ -1,18 +1,15 @@
 #leftPanel {
 	position: fixed;
 	margin-top: 250px;
-	margin-left: 5%;
 }
 
 #rightPanel {
 	position: fixed;
 	margin-top: 250px;
-	margin-left: 80%;
 }
 
 #pageStart {
 	position: absolute;	
-	left: 30%;
 	top: 300px;
 }
 
@@ -24,8 +21,11 @@ footer {
 	bottom: 10px;
 }
 
+h1 {
+    padding-top: 300px;
+}
 
-/* CSS Code for the Features Page Below */
+/* CSS Code for the Prices Page Below */
 #F-Header {
 	position: static;
 	display: block;
@@ -62,3 +62,57 @@ footer {
 	position: center;
 	width: 60%;
 }
+
+
+#galleryImg {
+    height: 400px;
+}
+
+button {
+	width: 200px;
+	height: 100px;
+	background-color:#e0e0e0;
+}
+
+button:hover {
+	background-color: #9ddff6;
+}
+
+
+/* backgrounds */
+#darkback{
+	color: #e0e0e0;
+	 background-color: #19191a
+
+}
+
+#lightback{
+	 color:  #19191a;
+	 background-color: #e0e0e0
+
+}
+
+
+/* css of features page */
+.fixed-back {
+  background-attachment: fixed;
+  background-position: center center;
+  height: 350px; 
+  width: 100%;
+
+}
+
+.b-1 {
+  background-image: url('Images/features1.jpg');
+}
+
+
+.b-2 {
+  background-image: url('Images/features2.jpg');
+}
+
+.b-3 {
+  background-image: url('Images/features3.jpg');
+}
+
+/* end of css of features page */

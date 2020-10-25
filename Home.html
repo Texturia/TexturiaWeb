@@ -5,47 +5,45 @@
 </head>
 <style>
 
-.top {
-    height: 300px;
-    background-color: gray;
-    }
-.container {
-    position: relative;
-    text-align: center;
-    height: 600px;
+
+#goggles {
+    margin-top: 300px;
+    background-image: url("Images/goggles2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 850px; 
     width: 100%;
-    top: 0px;
-    background-color:cadetblue;
-    }    
-.left_text {
-    position: absolute;
-    top: 40%;
-    left: 10px;
-    }
-.right_text {
-    position: absolute;
-    top: 40%;
-    right: 10px;
-    }
-.leftCon {
-    background-color: cornflowerblue;
-    position: absolute;
-    width: 30%;
-    left: 0%;
-    height: inherit;
-    text-align: center;
-    top: 0%;
+    height: 0;
+    padding-top: 50%
     
-    }     
-.rightCon {
-    background-color: cornflowerblue;
+    
+    
+}
+
+
+#videoLeft {
     position: absolute;
-    width: 30%;
-    right: 0%;
-    height: inherit;
-    text-align: center;
-    top: 0%;
-    }     
+    top: 620px;
+    left: 490px;
+    margin-right: 50px;
+    width: 185px;
+    height: 185px;
+    border-radius: 125px;
+    z-index: 9999;
+    
+}
+
+#videoRight {
+    position: absolute;
+    top: 620px;
+    right: 490px;
+    width: 185px;
+    height: 185px;
+    border-radius: 125px;
+    z-index: 9999;
+}
+
+
 
 </style>
 
@@ -53,97 +51,104 @@
 <body>
 
     <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
 
-<div class="topnav">
-    <ul id="ulNavbar"> 
-      <li id="liNavbar"><a href="Home.html">Home</a></li>	
-      <li id="liNavbar"class="dropdown">
-        <a href="javascript:void(0)"class="dropbtn">Gallery</a>
-            <div class="dropdown-content">
-        <a href="Demo.html">Wall Decor</a>
-        <a href="Demo2.html">Clothing</a>
-        <a href="Demo3.html">Household Objects</a>
-            </div>
-     </li>
-     <li id="liNavbar" class="dropdown">
-        <a href="javascript:void(0)"class="dropbtn">Features</a>
-            <div class="dropdown-content">
-        <a href="Features.html">AR Technology</a>
-        <a href="Features2.html">Custom Order Service</a>
-        <a href="Features3.html">Connecting Businesses with Consumers</a>
-        <a href="Features4.html">Sharing Creations with Other Users</a>
-            </div>
-     </li>
-     <li id="liNavbar" class="dropdown">
-        <a href="javascript:void(0)"class="dropbtn">Pricing</a>
-            <div class="dropdown-content">
-        <a href="Pricing.html">Users</a>
-        <a href="Pricing2.html">Designers</a>
-            </div>
-     </li>
-     <li id="liNavbar">
-        <a href="javascript:void(0)"class="dropbtn">Team</a>
-     </li>
-     <li id="liNavbar">
-        <img src="Images/TexturiaLogo.png">
-    </li>
-    </ul>
+    <div class="topnav">
+        <ul id="ulNavbar"> 
+          <li id="liNavbar"><a href="Home.html">Home</a></li>	
+          <li id="liNavbar"class="dropdown">
+            <a href="javascript:void(0)"class="dropbtn">Gallery</a>
+                <div class="dropdown-content">
+            <a href="Gallery.html">Wall Decor</a>
+            <a href="Gallery2.html">Clothing</a>
+            <a href="Gallery3.html">Household Objects</a>
+                </div>
+         </li>
+         <li id="liNavbar" class="dropdown">
+            <a href="javascript:void(0)"class="dropbtn">Features</a>
+                <div class="dropdown-content">
+            <a href="Features.html">Capture Designs</a>
+            <a href="Features.html#businesses">Connecting Businesses with Consumers</a>
+            <a href="Features.html#AR">AR Technology</a>
+            <a href="Features.html#share">Sharing Creations with Other Users</a>
+                </div>
+         </li>
+         <li id="liNavbar" class="dropdown">
+            <a href="javascript:void(0)"class="dropbtn">Pricing</a>
+                <div class="dropdown-content">
+            <a href="Pricing.html">Users</a>
+            <a href="Pricing2.html">Designers</a>
+                </div>
+         </li>
+            <li id="liNavbar"><a href="team.htm">Team</a></li>	
+         <li id="liNavbar">
+            <img src="Images/TexturiaLogo.png">
+        </li>
+        </ul>
+   
     </div>
        
 
 
-    <center><div>
+    <center><div >
    
+        <div id="pageStart">
+        </div>
 
-    <div class="container">
-        <img src="" alt="photo" style="width: 100%; height: 600px;">
-        <div class="leftCon">
+    <div id="darkBack">
+        <div id="goggles">
+            <div id="goggleVideo">
+            <video id="videoLeft" width="320" height="240" autoplay muted>
+                <source src="Videos/rollerCoaster1.mp4" type="video/mp4">
+            </video>
+            </div>
 
-        
-            <p class="left_text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>    
-        
+            <div id="goggleVideo">
+            <video id="videoRight" width="320" height="240" autoplay muted>
+                <source src="Videos/rollerCoaster2.mp4" type="video/mp4">
+            </video>
+            </div>
+        </div>
     </div>
     
     <br>
     <br>
 
-    <div class="container">  
-        <img src="" alt="photo" style="width: 100%; height: 600px;">
-        <div class="rightCon">
-            <p class="right_text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-    </div>
     <br>
     <br>
-    <div class="container">
-       <aside style=" background-color: lightcoral; top: 0%; height: inherit; width: 16.22%; float: left;"></aside>
-       <aside style=" background-color: rgb(176, 128, 240); top: 0%; height: inherit; width: 16.22%; float: left;">Gallery</aside>
-       <aside style="background-color: lightblue; top: 0%; height: inherit; width: 16.22%;float: left;">Features</aside>
-       <aside style=" background-color: lightcoral; top: 0%; height: inherit; width: 16.22%; float: left;">Pricing</aside>
-       <aside style=" background-color: rgb(176, 128, 240); top: 0%; height: inherit; width: 16.22%; float: left;">Team</aside>
+    <div id="darkBack">
+        <table>
+            <tr>
+                <td><img id="galleryImg" src="Images/street2.png"></td>
+                <td><img id="galleryImg" src="Images/street.jpg"></td>
+            </tr>
+            <tr>
+                <td><center>Typical Gaming Experience</center></td>
+                <td><center>Texturia-improved Gaming Experience</center></td>
+            </tr>
+        </table>
+    
+        <br><br>
 
-
-
+        <button onclick="openGallery()">SEE MORE</button>
 
     </div>
-    <footer>bottom</footer>
+    <footer>
+        <a id="backToTop" href="#top">Back to Top</a>
+    </footer>
+
+    <br><br>
+
     </div></center>
-
+<script>
+    function openGallery(){
+        window.open(
+        "Gallery.html",
+        "_blank"
+	    )	
+    }
+    
+</script>
 </body>
 
 
