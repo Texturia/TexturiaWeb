@@ -81,44 +81,38 @@ button:hover {
 
 /* backgrounds */
 #darkback{
-	color:white;
+	color: #e0e0e0;
 	 background-color: #19191a
 
 }
 
 #lightback{
-	 color:black;
+	 color:  #19191a;
 	 background-color: #e0e0e0
 
 }
 
+
 /* css of features page */
-.fixed-bg {
+.fixed-back {
   background-attachment: fixed;
-  
-  background-repeat: no-repeat;
-  
-  background-size: cover;
-  
   background-position: center center;
   height: 350px; 
   width: 100%;
-  color: white;
-  text-align: center;
-  display: table;
 
 }
 
-.bg-1 {
+.b-1 {
   background-image: url('Images/features1.jpg');
 }
 
 
-.bg-2 {
+.b-2 {
   background-image: url('Images/features2.jpg');
 }
 
-.bg-3 {
+.b-3 {
   background-image: url('Images/features3.jpg');
 }
 
+/* end of css of features page */
