@@ -1,18 +1,15 @@
 #leftPanel {
 	position: fixed;
 	margin-top: 250px;
-	margin-left: 5%;
 }
 
 #rightPanel {
 	position: fixed;
 	margin-top: 250px;
-	margin-left: 80%;
 }
 
 #pageStart {
 	position: absolute;	
-	left: 30%;
 	top: 300px;
 }
 
@@ -24,6 +21,9 @@ footer {
 	bottom: 10px;
 }
 
+h1 {
+    padding-top: 300px;
+}
 
 /* CSS Code for the Prices Page Below */
 #F-Header {
@@ -61,6 +61,21 @@ footer {
 #F-Table3 {
 	position: center;
 	width: 60%;
+}
+
+
+#galleryImg {
+    height: 400px;
+}
+
+button {
+	width: 200px;
+	height: 100px;
+	background-color:#e0e0e0;
+}
+
+button:hover {
+	background-color: #9ddff6;
 }
 
 
