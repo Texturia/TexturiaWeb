@@ -73,7 +73,7 @@
     display: block;
     }
     
-    img {
+   #logo {
       height: 120px;
       width: 120px;
       margin-left:30px;
@@ -88,3 +88,5 @@
    #backToTop {
       color: #99ddff
    }
+
+  
