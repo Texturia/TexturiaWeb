@@ -25,7 +25,7 @@ footer {
 }
 
 
-/* CSS Code for the Features Page Below */
+/* CSS Code for the Prices Page Below */
 #F-Header {
 	position: static;
 	display: block;
@@ -66,10 +66,44 @@ footer {
 
 /* backgrounds */
 #darkback{
+	color:white;
 	 background-color: #19191a
+
 }
 
 #lightback{
+	 color:black;
 	 background-color: #e0e0e0
+
+}
+
+/* css of features page */
+.fixed-bg {
+  background-attachment: fixed;
+  
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  
+  background-position: center center;
+  height: 350px; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+
+}
+
+.bg-1 {
+  background-image: url('Images/features1.jpg');
+}
+
+
+.bg-2 {
+  background-image: url('Images/features2.jpg');
+}
+
+.bg-3 {
+  background-image: url('Images/features3.jpg');
 }
 
