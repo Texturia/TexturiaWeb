@@ -23,7 +23,7 @@
 
 #videoLeft {
     position: absolute;
-    top: 620px;
+    top: 800px;
     left: 32%;
     margin-right: 50px;
     width: 185px;
@@ -35,7 +35,7 @@
 
 #videoRight {
     position: absolute;
-    top: 620px;
+    top: 800px;
     right: 32%;
     width: 185px;
     height: 185px;
@@ -43,8 +43,18 @@
     z-index: 9999;
 }
 
+#lightBack {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
 
+h1 {
+    font-size: 72px;
+}
 
+td {
+    padding: 25px;
+}
 </style>
 
 
@@ -55,24 +65,18 @@
 
     <div class="topnav">
         <ul id="ulNavbar"> 
-          <li id="liNavbar"><a href="Home.html">Home</a></li>	
+            <li id="liNavbar">
+                <a href="Home.html"><img id="logo" src="Images/TexturiaLogo.png"></a>
+            </li>
           <li id="liNavbar"class="dropdown">
             <a href="javascript:void(0)"class="dropbtn">Gallery</a>
                 <div class="dropdown-content">
-            <a href="Gallery.html">Wall Decor</a>
-            <a href="Gallery2.html">Clothing</a>
-            <a href="Gallery3.html">Household Objects</a>
+                    <a href="Gallery.html">VR Games</a>
+                    <a href="Gallery.html#videoGames">Video Games</a>
+                    <a href="Gallery.html#customGames">Custom Games</a>
                 </div>
          </li>
-         <li id="liNavbar" class="dropdown">
-            <a href="javascript:void(0)"class="dropbtn">Features</a>
-                <div class="dropdown-content">
-            <a href="Features.html">Capture Designs</a>
-            <a href="Features.html#businesses">Connecting Businesses with Consumers</a>
-            <a href="Features.html#AR">AR Technology</a>
-            <a href="Features.html#share">Sharing Creations with Other Users</a>
-                </div>
-         </li>
+         <li id="liNavbar"><a href="Features.html">Features</a></li>	
          <li id="liNavbar" class="dropdown">
             <a href="javascript:void(0)"class="dropbtn">Pricing</a>
                 <div class="dropdown-content">
@@ -81,13 +85,10 @@
                 </div>
          </li>
             <li id="liNavbar"><a href="team.htm">Team</a></li>	
-         <li id="liNavbar">
-            <img src="Images/TexturiaLogo.png">
-        </li>
+         
         </ul>
-   
+    
     </div>
-       
 
 
     <center><div >
@@ -113,6 +114,10 @@
     
     <br>
     <br>
+
+    <div id="lightBack">
+        <h1>Experience a new reality </h1>
+    </div>
 
     <br>
     <br>
