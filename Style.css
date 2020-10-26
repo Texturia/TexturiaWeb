@@ -21,9 +21,10 @@ footer {
 	position: fixed;	
 	bottom: 10px;
 }
+
 /* CSS Code for the Pricing Page Below */
 #P-RightPanel {
-	float: right;
+  float: right;
 	position: relative;
 	width: 20%;
 
@@ -50,4 +51,60 @@ footer {
 	position: center;
 	width: 60%;
 }
+
 body {margin: 0px}
+
+
+#galleryImg {
+    height: 400px;
+}
+
+button {
+	width: 200px;
+	height: 100px;
+	background-color:#e0e0e0;
+}
+
+button:hover {
+	background-color: #9ddff6;
+}
+
+
+/* backgrounds */
+#darkback{
+	color: #e0e0e0;
+	 background-color: #19191a
+
+}
+
+#lightback{
+	 color:  #19191a;
+	 background-color: #e0e0e0
+
+}
+
+
+/* css of features page */
+.fixed-back {
+  background-attachment: fixed;
+  background-position: center center;
+  height: 350px; 
+  width: 100%;
+
+}
+
+.b-1 {
+  background-image: url('Images/features1.jpg');
+}
+
+
+.b-2 {
+  background-image: url('Images/features2.jpg');
+}
+
+.b-3 {
+  background-image: url('Images/features3.jpg');
+}
+
+/* end of css of features page */
+
