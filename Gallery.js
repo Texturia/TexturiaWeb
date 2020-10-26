@@ -3,7 +3,7 @@ setText[0] = "Imagine... a flat terrain abounding with grass"
 setText[1] = "With a lake to the east..."
 setText[2] = "And a cave waiting to be explored."
 setText[3] = "On a cool and cloudy day"
-setText[4] = "On a cool and cloudy day"
+setText[4] = "Whatever you imagine, build it with Texturia!"
 
 var setImg = new Array(4);
 setImg[0] = new Image()
@@ -38,7 +38,8 @@ for (i=0; i<setImg.length; i++) {
             await delay(3000);
             document.getElementById("setImage").replaceChild(setImg[3], setImg[2]);
             document.getElementById("setText").innerHTML = setText[3];
-       
+            await delay(3000);
+            document.getElementById("setText").innerHTML = setText[4];
     }
 
 
