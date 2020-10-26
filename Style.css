@@ -1,16 +1,17 @@
 #leftPanel {
 	position: fixed;
-	margin-top: 250px;
+	margin-top:250px;
+	margin-left: 5%;
 }
 
 #rightPanel {
 	position: fixed;
 	margin-top: 250px;
+	margin-left: 80%;
 }
 
-#pageStart {
-	position: absolute;	
-	top: 300px;
+#midPanel {
+		
 }
 
 footer {
@@ -20,71 +21,33 @@ footer {
 	position: fixed;	
 	bottom: 10px;
 }
-
-h1 {
-    padding-top: 300px;
-}
-
-/* CSS Code for the Features Page Below */
-#F-Header {
-	position: static;
-	display: block;
-	color: grey;
-}
-
-#F-RightPanel {
+/* CSS Code for the Pricing Page Below */
+#P-RightPanel {
 	float: right;
 	position: relative;
 	width: 20%;
-	margin-top: 250px;
 
 }
 
-#F-LeftPanel {
+#P-LeftPanel {
 	float: left;
 	position: relative;
 	width: 20%;
-	margin-top: 250px;
 	
 }
 
-#F-Table1 {
+#P-Table1 {
 	position: center;
 	width: 60%;
 }
 
-#F-Table2 {
+#P-Table2 {
 	position: center;
 	width: 60%;
 }
 
-#F-Table3 {
+#P-Table3 {
 	position: center;
 	width: 60%;
 }
-
-
-#galleryImg {
-    height: 400px;
-}
-
-button {
-	width: 200px;
-	height: 100px;
-	background-color:#e0e0e0;
-}
-
-button:hover {
-	background-color: #9ddff6;
-}
-
-
-/* backgrounds */
-#darkback{
-	 background-color: #19191a
-}
-
-#lightback{
-	 background-color: #e0e0e0
-}
-
+body {margin: 0px}
