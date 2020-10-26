@@ -12,12 +12,12 @@ For Texturia, a black and white colour scheme was chosen, also including a coupl
 
 
 Page background - Alternating #19191a and #e0e0e for each section
-Page text - #19191a on #e0e0e background, #e0e0e on  #19191a background  
+Page text - #19191a on #e0e0e0 background, #e0e0e0 on  #19191a background  
 Navbar background - black
-Navbar text - #e0e0e
+Navbar text - #e0e0e0
 Navbar on-hover - text becomes  #99ddff
 Navbar dropdown on-hover - background becomes #0f0f0f
-Button background -  #e0e0e
+Button background -  #e0e0e0
 Button background on-hover - #9ddff6
 
 ============
