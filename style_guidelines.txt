@@ -1,0 +1,48 @@
+﻿==================================
+Overall Look and Feel of Texturia 
+==================================
+
+The overall look and feel should be simplistic and eloquent. This will be achieved through the use of a simple colour palette, padding around elements, and a lack of 3d elements and shadows. The elements should also be well defined, avoiding soft or rounded edges. Overall, it should show sophistication and elegance to the user.   
+
+========
+Colours
+========
+
+For Texturia, a black and white colour scheme was chosen, also including a couple of shades of gray. The darker colours help create a more powerful impact of the elegant designs, while the lighter grayish-white aid in establishing a modern atmosphere. The occasional use of light blue (navbar, link) helps energize the brand.
+
+
+Page background - Alternating #19191a and #e0e0e for each section
+Page text - #19191a on #e0e0e background, #e0e0e on  #19191a background  
+Navbar background - black
+Navbar text - #e0e0e
+Navbar on-hover - text becomes  #99ddff
+Navbar dropdown on-hover - background becomes #0f0f0f
+Button background -  #e0e0e
+Button background on-hover - #9ddff6
+
+============
+Iconography
+============
+
+The logo will serve as an icon taking the user to the Home screen. It will fit in with our desired colour scheme of black and white, maintaining the simplicity and elegance of our overall look and feel. 
+
+===========
+Typography
+===========
+
+We will be using Roboto from Google Fonts.
+
+======
+Links
+======
+
+Link color:  #99ddff
+
+
+The ‘Back to Top’ link will be fixed onto the page but will not change colour when the user hovers over it. 
+
+========
+Buttons
+========
+
+Buttons will have a flat, rectangular design with letters on the button capitalized. On-hover, the background will change to light blue. They won’t have any shadow effects.
