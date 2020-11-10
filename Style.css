@@ -23,37 +23,86 @@ footer {
 }
 
 /* CSS Code for the Pricing Page Below */
+#P-MiddleGroup {
+	position: relative;
+}
+
+#P-H1 {
+	position: relative
+	
+}
+#P-H2 {
+	position: relative
+}
+#P-H3 {
+	position: relative
+}
+#P-H4 {
+	position: relative
+}
 #P-RightPanel {
   float: right;
 	position: relative;
-	width: 20%;
+	width: 15%;
 
+}
+
+#PB1 {
+	position: inherit;
+	width: 150px;
+	height: 75px;
+	background-color:grey;
+}
+
+#PB1:hover {
+	background-color: #9ddff6;
+}
+
+#PB2 {
+	position: inherit;
+	width: 150px;
+	height: 75px;
+	background-color:grey;
+}
+
+#PB2:hover {
+	background-color: #9ddff6;
+}
+
+#PB3 {
+	position: inherit;
+	width: 150px;
+	height: 75px;
+	background-color:grey;
+}
+
+#PB3:hover {
+	background-color: #9ddff6;
 }
 
 #P-LeftPanel {
 	float: left;
 	position: relative;
-	width: 20%;
+	width: 15%;
 	
 }
 
 #P-Table1 {
-	position: center;
+	position: inherit;
 	width: 60%;
 }
 
 #P-Table2 {
-	position: center;
+	position: inherit;
 	width: 60%;
 }
 
 #P-Table3 {
-	position: center;
+	position: inherit;
 	width: 60%;
 }
 
 body {margin: 0px}
-
 
 #galleryImg {
     height: 400px;
