@@ -157,3 +157,8 @@ button:hover {
 
 /* end of css of features page */
 
+body {
+	background-color:#19191a;
+    color: #e0e0e0;
+	font-family: 'Poppins', sans-serif;
+}
