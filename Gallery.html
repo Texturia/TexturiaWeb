@@ -9,23 +9,41 @@
 <title>Gallery</title>
 
 <style>
+#darkBack, #lightBack {
+    width: 100%
+}
+
+
 #galleryImg {
-	height: 300px;
-	width: 500px
+	height: 100%;
+	width: 100%;
 }
 
 .gallerySection {
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
 }
+
 
 td {
     padding: 25px;
+    width: 50%;
+    
+}
+
+#tdDark {
+    color:  #e0e0e0;
+}
+
+#tdLight {
+    color:  #19191a;;
 }
 
 p, #setText {
     font-size:  18px;
 }
+
 </style>
 
 </head>
@@ -66,37 +84,47 @@ p, #setText {
     </div>
 	<h1>Gallery</h1>
 	<h2>Virtual Reality</h2>
-	<p>Check out how Texturia can help improve your VR Experiences!</p><br><br>
-	<div id="darkBack">
-		<h3 class="">Roller Coaster Rides</h3>
-        
-            <table>
-                <tr>
-                    <td><img id="galleryImg" src="Images/gallery1a.jpg"></td>
-                    <td><img id="galleryImg" src="Images/gallery1b.jpg"></td>
-                </tr>
-                <tr>
-                    <td><center>Typical Gaming Experience</center></td>
-                    <td><center>Texturia-improved Gaming Experience</center></td>
-                </tr>
-            </table>
-            
-		<p>The actual texture of a roller-coaster ride, right before your eyes!</p>
-    </div>
+    <p>Check out how Texturia can help improve your VR Experiences!</p><br><br>
+    
+    <div id="darkBack">
+        <h3 class="">Roller Coaster Rides</h3>
+    
+        <table>
+            <tr>
+                <td><img id="galleryImg" src="Images/gallery1a.jpg"></td>
+                <td><img id="galleryImg" src="Images/gallery1b.jpg"></td>
+            </tr>
+            <tr>
+                <td id="tdDark">
+                    <center>Typical Gaming Experience</center>
+                </td>
+                <td id="tdDark">
+                    <center>Texturia-improved Gaming Experience</center>
+                </td>
+            </tr>
+        </table>
+    
+        <p>The actual texture of a roller-coaster ride, right before your eyes!</p>
+    </div> 
+
     
     <div class="gallerySection" id="lightBack">
-		<h3 class="">VR Games</h3>
-        
-            <table>
-                <tr>
-                    <td><img id="galleryImg" src="Images/gallery2a.png"></td>
-                    <td><img id="galleryImg" src="Images/gallery2b.jpg"></td>
-                </tr>
-                <tr>
-                    <td><center>Typical Gaming Experience</center></td>
-                    <td><center>Texturia-improved Gaming Experience</center></td>
-                </tr>
-            </table>
+        <h3 class="">Roller Coaster Rides</h3>
+    
+        <table>
+            <tr>
+                <td><img id="galleryImg" src="Images/gallery2a.png"></td>
+                <td><img id="galleryImg" src="Images/gallery2b.jpg"></td>
+            </tr>
+            <tr>
+                <td id="tdLight">
+                    <center>Typical Gaming Experience</center>
+                </td>
+                <td id="tdLight">
+                    <center>Texturia-improved Gaming Experience</center>
+                </td>
+            </tr>
+        </table>
             
 		<p>Play VR games truly immersed in the texture of the scenery surrounding you</p>
     </div>
@@ -110,12 +138,12 @@ p, #setText {
                     <td><img id="galleryImg" src="Images/gallery3b.jpeg"></td>
                 </tr>
                 <tr>
-                    <td><center>Typical Gaming Experience</center></td>
-                    <td><center>Texturia-improved Gaming Experience</center></td>
+                    <td id="tdDark" ><center>Typical Gaming Experience</center></td>
+                    <td id="tdDark"><center>Texturia-improved Gaming Experience</center></td>
                 </tr>
             </table>
          <a name="videoGames"></a> 
-		<p>Play VR games truly immersed in the texture of the room you're exploring</p>
+		<p>Play VR games absorbed by the textures of the room you're exploring</p>
     </div>
     
 
@@ -124,12 +152,12 @@ p, #setText {
 		<h3 class="">Video Games</h3>
             <table>
                 <tr>
-                    <td><img id="galleryImg" src="Images/street2.png"></td>
+                    <td><img id="galleryImg" src="Images/street2.jpg"></td>
                     <td><img id="galleryImg" src="Images/street.jpg"></td>
                 </tr>
                 <tr>
-                    <td><center>Typical Gaming Experience</center></td>
-                    <td><center>Texturia-improved Gaming Experience</center></td>
+                    <td id="tdLight"><center>Typical Gaming Experience</center></td>
+                    <td id="tdLight"><center>Texturia-improved Gaming Experience</center></td>
                 </tr>
             </table>
         <a name="customGames"></a>
@@ -173,8 +201,8 @@ p, #setText {
 
 
 <footer>
-
-<a id="backToTop" href="#top">Back to Top</a>
+ <p> © 2020 Texturia. All right reserved. <br> Texturia and the Texturia logo are registered trademarks of Texturia. <br>
+     <a id="copyright" href="Terms of Use.pdf" target="_blank">Terms of Use</a>  <a id="copyright" href="Privacy Policy.pdf" target="_blank">Privacy Policy.</a> </p>
 </footer>
 
 </html>
