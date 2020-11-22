@@ -10,9 +10,7 @@
 	margin-left: 80%;
 }
 
-#midPanel {
-		
-}
+
 
 footer {
 	width: 100%;
@@ -21,7 +19,7 @@ footer {
 	bottom: 10px;
 }
 
-/* CSS Code for the Pricing Page Below */
+/* CSS Code for the Pricing Page Below */ 
 #P-MiddleGroup {
 	position: relative;
 }
@@ -111,6 +109,7 @@ button {
 	width: 200px;
 	height: 100px;
 	background-color:#e0e0e0;
+	border-radius: 25px;
 }
 
 button:hover {

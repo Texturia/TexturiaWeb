@@ -64,7 +64,12 @@ td {
 
 #logoHome {
     width: 600px;
+    padding-bottom: 200px;
     
+}
+
+#slogan {
+    padding-top: 400px;
 }
 
 </style>
@@ -123,16 +128,19 @@ td {
             </video>
             </div>
         </div>
+
+        <br><br><br>
+        <br><br><br>
+        <h1 id="slogan">Experience a new reality </h1>
+        <img src="Images/TexturiaLogo.png" id="logoHome">
+
     </div>
     
 
 
-    <div id="lightBack">
-        <br><br><br>
-         <br><br><br>
-        <h1>Experience a new reality </h1>
-        <img src="Images/TexturiaLogo.png" id="logoHome">
-    </div>
+   
+        
+    
 
     <br>
     <br>
@@ -150,21 +158,22 @@ td {
     
         <br><br>
 
-        <button onclick="openGallery()">SEE MORE</button>
-
+        <button onclick="openFeatures()">FIND OUT HOW</button>
+        
 
     </div>
     <footer>
-        <a id="backToTop" href="#top">Back to Top</a>
+        <p> © 2020 Texturia. All right reserved. <br> Texturia and the Texturia logo are registered trademarks of Texturia. <br>
+            <a id="copyright" href="Terms of Use.pdf" target="_blank">Terms of Use</a>  <a id="copyright" href="Privacy Policy.pdf" target="_blank">Privacy Policy.</a> </p>
     </footer>
 
     <br><br>
 
     </div></center>
 <script>
-    function openGallery(){
+    function openFeatures(){
         window.open(
-        "Gallery.html",
+        "Features.html",
         "_blank"
 	    )	
     }
