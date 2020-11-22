@@ -23,7 +23,7 @@ footer {
 
 /* CSS Code for the Pricing Page Below */
 #P-MiddleGroup {
-	position: relative;
+	position: relative;	
 }
 
 #P-H1 {
@@ -39,52 +39,18 @@ footer {
 #P-H4 {
 	position: relative
 }
-#P-RightPanel {
-  float: right;
-	position: relative;
-	width: 15%;
 
-}
-
-#PB1 {
+#downloadButton {
 	position: inherit;
-	width: 150px;
-	height: 75px;
-	background-color:grey;
+	width: 25%;
+	height: 10%;
+	background-color: grey;
+	border-color: black;
+	text-align: center;
+	border-radius: 30%;
+	margin: 2%;
 }
 
-#PB1:hover {
-	background-color: #9ddff6;
-}
-
-#PB2 {
-	position: inherit;
-	width: 150px;
-	height: 75px;
-	background-color:grey;
-}
-
-#PB2:hover {
-	background-color: #9ddff6;
-}
-
-#PB3 {
-	position: inherit;
-	width: 150px;
-	height: 75px;
-	background-color:grey;
-}
-
-#PB3:hover {
-	background-color: #9ddff6;
-}
-
-#P-LeftPanel {
-	float: left;
-	position: relative;
-	width: 15%;
-	
-}
 
 #P-Table1 {
 	position: inherit;
@@ -96,10 +62,45 @@ footer {
 	width: 60%;
 }
 
+#PricingIMG1 {
+	position: relative;
+	height: 60%;
+	width: 49%;
+	float: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+#PricingIMG2 {
+	position: relative;
+	height: 60%;
+	width: 49%;
+	float: right;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	
+}
+
 #P-Table3 {
 	position: inherit;
 	width: 60%;
 }
+
+#P-Bold {
+	font-weight: bold;
+}
+
+#P-Footer {
+	padding: 2%;
+}
+
+#P-FB {
+	background-color: grey;
+	border-color: black;
+	border-radius: 30%;
+}
+
+/* End of Pricing CSS*/
 
 body {margin: 0px}
 
