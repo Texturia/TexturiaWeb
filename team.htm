@@ -4,6 +4,8 @@
 <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <style>
 * {
   box-sizing: border-box;
@@ -61,80 +63,73 @@ article {
 
 
 footer {
-  background-color: #777;
   padding: 40px;
   text-align: center;
-  color: white;
 }
 
 
 </style>
 <link rel="stylesheet" type="text/css" href="navbar.css">
+<link rel="stylesheet" href="./Style.css">
 </head>
 <body>
 
    <div class="topnav">
       <ul id="ulNavbar"> 
           <li id="liNavbar">
-              <a href="Home.html"><img id="logo" src="Images/TexturiaLogo.png"></a>
+              <a href="home.html"><img id="logo" src="Images/TexturiaLogo.png"></a>
           </li>
         <li id="liNavbar"class="dropdown">
           <a href="javascript:void(0)"class="dropbtn">Gallery</a>
               <div class="dropdown-content">
-                  <a href="Gallery.html">VR Games</a>
-                  <a href="Gallery.html#videoGames">Video Games</a>
-                  <a href="Gallery.html#customGames">Custom Games</a>
+                  <a href="gallery.html">VR Games</a>
+                  <a href="gallery.html#videoGames">Video Games</a>
+                  <a href="gallery.html#customGames">Custom Games</a>
               </div>
        </li>
-       <li id="liNavbar"><a href="Features.html">Features</a></li>	
-       <li id="liNavbar" class="dropdown">
-          <a href="javascript:void(0)"class="dropbtn">Pricing</a>
-              <div class="dropdown-content">
-          <a href="Pricing.html">Users</a>
-          <a href="Pricing2.html">Designers</a>
-              </div>
-       </li>
-          <li id="liNavbar"><a href="team.htm">Team</a></li>	
+       <li id="liNavbar"><a href="features.html">Features</a></li>	
+       <li id="liNavbar"><a href="pricing.html">Pricing</a></li>
+       <li id="liNavbar"><a href="team.htm">Team</a></li>	
        
       </ul>
   
   </div>
 
-  <article>
-    <h1 style="margin-top: 250px;">INFO</h1>
+  <article id="darkback">
+    <h1 style="margin-top: 150px;" >INFO</h1>
     <p>Texturia allows for hyper realistic  textures to be applied to the virtual world (ei: virtual reality, video games, etc). Our technology captures real life textures, colours and designs, electronically reproduces them and allows you to apply them virtually (as skins, objects,scenery, etc.)
       We aim to partner with Virtual Reality companies (Oculus, HTC Vive, Google, Microsoft, etc) as well as video game manufacturers to sell these products within the space.
       </p>
   </article>
 
 
-<section id=column1>
+<section id="lightback">
    <p> Daniel Dumitrescu : 
-Mail address : ddumi062@uottawa.ca
+Mail address : ddumi062@uottawa.ca 
 UOttawa student. </p>
    </section>
    
-<section id=column2>
+<section id="darkback">
    <p> Sabina Solomon :
 Mail address : ssolo008@uottawa.ca
 UOttawa student. </p>
    </section>
    
-<section id=column3>
+<section id="lightback">
    <p>Domenic Quenneville : 
 Mail address : dquen086@uottawa.ca
 UOttawa student.
    </p>
    </section>
 
-<section id=column4>
+<section id="darkback">
    <p> Darby Martin :
 Mail address : dmart141@uottawa.ca
 UOttawa student.
    </p>
    </section>
 
-<section id=column5>
+<section id="lightback">
    <p> Salim Soussi :
 Mail address : ssous046@uottawa.ca
 UOttawa student.
@@ -146,14 +141,15 @@ UOttawa student.
    </p>
    </section>
    
+
   
-  
 
 
 
-<footer>
-   <a id="backToTop" href="#top">Back to Top</a>
-</footer>
+   <footer id="darkback">
+      <p> © 2020 Texturia. All right reserved. <br> Texturia and the Texturia logo are registered trademarks of Texturia. <br>
+          <a id="copyright" href="Terms of Use.pdf" target="_blank">Terms of Use</a>  <a id="copyright" href="Privacy Policy.pdf" target="_blank">Privacy Policy.</a> </p>
+   </footer>
 
 </body>
 </html>

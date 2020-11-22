@@ -10,50 +10,100 @@
 	margin-left: 80%;
 }
 
-#midPanel {
-		
-}
+
 
 footer {
 	width: 100%;
 	z-index: 9999;
-	text-align: center;
-	position: fixed;	
-	bottom: 10px;
-}
+	text-align: center;	
+	padding: 30px;
+	background-color:black ;
 
-/* CSS Code for the Pricing Page Below */
-#P-RightPanel {
-  float: right;
-	position: relative;
-	width: 20%;
 
 }
 
-#P-LeftPanel {
-	float: left;
-	position: relative;
-	width: 20%;
+/* CSS Code for the Pricing Page Below */ 
+#P-MiddleGroup {
+	position: relative;	
+}
+
+#P-H1 {
+	position: relative
 	
 }
+#P-H2 {
+	position: relative
+}
+#P-H3 {
+	position: relative
+}
+#P-H4 {
+	position: relative
+}
+
+#downloadButton {
+	position: inherit;
+	width: 25%;
+	height: 10%;
+	background-color: grey;
+	border-color: black;
+	text-align: center;
+	border-radius: 30%;
+	margin: 2%;
+}
+
 
 #P-Table1 {
-	position: center;
+	position: inherit;
 	width: 60%;
 }
 
 #P-Table2 {
-	position: center;
+	position: inherit;
 	width: 60%;
+}
+
+#PricingIMG1 {
+	position: relative;
+	height: 60%;
+	width: 49%;
+	float: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+#PricingIMG2 {
+	position: relative;
+	height: 60%;
+	width: 49%;
+	float: right;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	
 }
 
 #P-Table3 {
-	position: center;
+	position: inherit;
 	width: 60%;
 }
 
-body {margin: 0px}
+#P-Bold {
+	font-weight: bold;
+}
 
+#P-Footer {
+	padding: 2%;
+}
+
+#P-FB {
+	background-color: grey;
+	border-color: black;
+	border-radius: 30%;
+}
+
+/* End of Pricing CSS*/
+
+body {margin: 0px}
 
 #galleryImg {
     height: 400px;
@@ -63,6 +113,7 @@ button {
 	width: 200px;
 	height: 100px;
 	background-color:#e0e0e0;
+	border-radius: 25px;
 }
 
 button:hover {
@@ -88,23 +139,50 @@ button:hover {
 .fixed-back {
   background-attachment: fixed;
   background-position: center center;
-  height: 350px; 
-  width: 100%;
+  height: 300px; 
+  width: 70%;
 
 }
 
+
+
+
 .b-1 {
   background-image: url('Images/features1.jpg');
+  background-repeat: repeat-y;
 }
 
 
 .b-2 {
+	
   background-image: url('Images/features2.jpg');
+  background-repeat: no-repeat;
 }
 
 .b-3 {
   background-image: url('Images/features3.jpg');
+  background-repeat: no-repeat;
+
+}
+
+.b-4 {
+  background-image: url('Images/features4.jpg');
+  background-repeat: no-repeat;
+}
+
+.b-5 {
+  background-image: url('Images/features5.jpg');
+  background-repeat: no-repeat;
 }
 
 /* end of css of features page */
 
+body {
+	background-color:#19191a;
+    color: #e0e0e0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#backToTop, #copyright {
+	color: #99ddff
+ }
