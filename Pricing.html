@@ -8,24 +8,18 @@
     <div class="topnav">
         <ul id="ulNavbar"> 
             <li id="liNavbar">
-                <a href="Home.html"><img id="logo" src="Images/TexturiaLogo.png"></a>
+                <a href="home.html"><img id="logo" src="Images/TexturiaLogo.png"></a>
             </li>
           <li id="liNavbar"class="dropdown">
             <a href="javascript:void(0)"class="dropbtn">Gallery</a>
                 <div class="dropdown-content">
-                    <a href="Gallery.html">VR Games</a>
-                    <a href="Gallery.html#videoGames">Video Games</a>
-                    <a href="Gallery.html#customGames">Custom Games</a>
+                    <a href="gallery.html">VR Games</a>
+                    <a href="gallery.html#videoGames">Video Games</a>
+                    <a href="gallery.html#customGames">Custom Games</a>
                 </div>
          </li>
-         <li id="liNavbar"><a href="Features.html">Features</a></li>	
-         <li id="liNavbar" class="dropdown">
-            <a href="javascript:void(0)"class="dropbtn">Pricing</a>
-                <div class="dropdown-content">
-            <a href="Pricing.html">Users</a>
-            <a href="Pricing2.html">Designers</a>
-                </div>
-         </li>
+         <li id="liNavbar"><a href="features.html">Features</a></li>	
+         <li id="liNavbar"><a href="pricing.html">Pricing</a></li>
             <li id="liNavbar"><a href="team.htm">Team</a></li>	
          
         </ul>
@@ -34,40 +28,40 @@
 
     <body>
     <title>Pricing</title>
-     <div id ="P-LeftPanel">
-        <br><button id="PB1" type="button" onclick="document.getElementById('P-Table1').scrollIntoView()">Table 1</button><br><br>
-        <button id="PB2" type="button" onclick="document.getElementById('P-Table2').scrollIntoView()">Table 2</button><br><br>
-        <button id="PB3" type="button" onclick="document.getElementById('P-Table3').scrollIntoView()">Table 3</button><br>
-     </div>
-
-       
-        
+      
         <Center><div id="P-MiddleGroup" class ="group">
     <h1 id= "P-H1" style="width: 20%">Pricing</h1>
     <h2 id= "P-H2" style="width: 20%">Free to use</h2>
         
         <div id="P-Table1">
-            <p>Texturia is a application that allows it's users to  significantly increase the fidelity of virtual textures through the capture of real life elements, with the simple click of a button</p>
-            <p>You can download this application today, for the low low fee of TBD$</p>
+            <p>Texturia is an application that allows it's users to  significantly increase the fidelity of virtual textures through the capture of real life elements, with the simple click of a button</p>
+            <p>You can download this application today!</p>
+            <button id='downloadButton'>Download Now!</button>
         </div><br><br>
 
     <h3 id = "P-H3" style="width: 20%">Use of Texturia in games and Personal Projects</h3>
         <div id="P-Table2">
             <p>Texturia's array of different life-like digital textures are of open use for any individual personal projects or small group projects.</p>
-            <p>The use of Textura designs and textures in projects where profits exceed TBD$ are subject to a minimal fee, for the use of Texturia assets commercially</p>
+            <p>The use of Texturia assets in products sold commercially are subject to the standardized fee of $5 per Megabyte</p>
+            <table>
+                <tr>
+                    <img src="Images/Pricing1.jpg" id="PricingIMG1">
+                    <img src="Images/Pricing2.jpg" id="PricingIMG2">
+                </tr>   
+            </table>
         </div><br><br>
 
-    <h4 id= "P-H4" style="width: 20%">Texturia Hub Server</h4>
+    <br><br><h4 id= "P-H4" style="width: 20%">Corporate Usage Benefits</h4>
         <div id="P-Table3">
-            <p1>Through the use of a Texturia Hub Server, users can gain access to a cloud server.</p1>
-            <p2>Users can use these servers to create a virtual landscape/plane that can be used for a meriad of reasons.</p2>
-            <p3>Need a calming open field to host a socially-distanced family gathering, or even a well-maintained gardenscape to host a professional meeting. Any and all reasons, as well as any Texturia-made textures is all it would take to lighten up any situation</p3>
-            <p4>This service is comes with an additional charge, but permits full access to Texturia created assets and allows for the use of cloud computing to create the ideal environments for any given situation.</p4>
+            <p1>For corporate partners/users, using Texturia's end of the line Textures aren't the only benefits that can be reaped</p1><br><br>
+            <p2 id="P-Bold">You'll be able to utilize Texturia's processing capabilities, allowing for higher end frame rates, access to our design team (for customized textures) and so much more!</p2>
+            
         </div>
         </div></Center>
 
-    </body>
-    <footer id="P-Footer">
-        <a id="reset" href="#P-Header"></a>
+    </body><br>
+    <footer>
+        <p> © 2020 Texturia. All right reserved. <br> Texturia and the Texturia logo are registered trademarks of Texturia. <br>
+            <a id="copyright" href="Terms of Use.pdf" target="_blank">Terms of Use</a>  <a id="copyright" href="Privacy Policy.pdf" target="_blank">Privacy Policy.</a> </p>
     </footer>
 </html>
