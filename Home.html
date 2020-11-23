@@ -6,8 +6,10 @@
 </head>
 <style>
 
-/*
+
+/* 
 #goggles {
+    
     margin-top: 300px;
     background-image: url("Images/goggles2.png");
     background-repeat: no-repeat;
@@ -16,16 +18,25 @@
     width: 100%;
     height: 0;
     padding-top: 50%  
+    
+     
 }
 */
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
 
 #VRgoggles{
 
     position: absolute;
-    left: 0px;
+    left: 0%; 
+    right: 0%;
     z-index: 9999;
     width: 100%;
-    height: 70%;
+    height: 70%; 
   
 
 }
@@ -55,7 +66,9 @@
 }
 
 #darkBack {
-    width: 100%
+    overflow-x: hidden;
+
+    width: auto;
 }
 
 #galleryImg {
@@ -93,19 +106,19 @@ td {
     <div class="topnav">
         <ul id="ulNavbar"> 
             <li id="liNavbar">
-                <a href="home.html"><img id="logo" src="Images/TexturiaLogo.png"></a>
+                <a href="Home.html"><img id="logo" src="Images/TexturiaLogo.png"></a>
             </li>
           <li id="liNavbar"class="dropdown">
             <a href="javascript:void(0)"class="dropbtn">Gallery</a>
                 <div class="dropdown-content">
-                    <a href="gallery.html">VR Games</a>
-                    <a href="gallery.html#videoGames">Video Games</a>
-                    <a href="gallery.html#customGames">Custom Games</a>
+                    <a href="Gallery.html">VR Games</a>
+                    <a href="Gallery.html#videoGames">Video Games</a>
+                    <a href="Gallery.html#customGames">Custom Games</a>
                 </div>
          </li>
-         <li id="liNavbar"><a href="features.html">Features</a></li>	
-         <li id="liNavbar"><a href="pricing.html">Pricing</a></li>
-            <li id="liNavbar"><a href="team.htm">Team</a></li>	
+         <li id="liNavbar"><a href="Features.html">Features</a></li>	
+         <li id="liNavbar"><a href="Pricing.html">Pricing</a></li>
+            <li id="liNavbar"><a href="Team.htm">Team</a></li>	
          
         </ul>
     
