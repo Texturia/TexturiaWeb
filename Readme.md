@@ -13,5 +13,5 @@ Salim Soussi -300185840
 
 Product Name: Texturia
 
-Texturia allows for hyper realistic  textures to be applied to the virtual world (ei: virtual reality, video games, etc). Our technology captures real life textures, colours and designs, electronically reproduces them and allows you to apply them virtually (as skins, objects,scenery, etc.)
+Texturia allows for hyper realistic  textures to be applied to the virtual world in Virtual Reality. Our technology captures real life textures, colours and designs, electronically reproduces them and allows you to apply them virtually (as skins, objects,scenery, etc.).
 
